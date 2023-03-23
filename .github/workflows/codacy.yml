@@ -60,5 +60,5 @@ jobs:
         with:
           sarif_file: results.sarif
 
-      - name: Go Dependency Submission
-        uses: actions/go-dependency-submission@v1.0.2
+      - name: Vulnerability scanner for Go
+        uses: florianl/govulncheck-action@v0.0.2
