@@ -16,5 +16,4 @@ func main() {
 	router.DELETE("/movies/:id", controllers.DeleteMovies)
 	router.Run("localhost:8080")
 	fmt.Println("Serving localhost:8080")
-	test := 7070
 }
