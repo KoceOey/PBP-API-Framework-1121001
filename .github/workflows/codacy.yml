@@ -60,5 +60,6 @@ jobs:
         with:
           sarif_file: results.sarif
 
-      - name: Vulnerability scanner for Go
-        uses: florianl/govulncheck-action@v0.0.2
+      - name: Cosmos Gosec Security Checker
+        uses: cosmos/gosec@v0.0.8
+
