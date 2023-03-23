@@ -14,6 +14,6 @@ func main() {
 	router.POST("/movies", controllers.InsertMovies)
 	router.PUT("/movies/:id", controllers.UpdateMovies)
 	router.DELETE("/movies/:id", controllers.DeleteMovies)
-	router.Run("localhost:8080")test
+	router.Run("localhost:8080")
 	fmt.Println("Serving localhost:8080")
 }
